@@ -73,11 +73,11 @@ itemlist.insert(49)
 itemlist.dump_list()
 
 # exercise the list
-#print("Item count: ", itemlist.get_count())
-#print("Finding item: ", itemlist.find(53))
-#print("Finding item: ", itemlist.find(32))
-
-itemlist.deleteAt(2)
 print("Item count: ", itemlist.get_count())
-print("Finding item: ", itemlist.find(12))
-itemlist.dump_list()
+print("Finding item: ", itemlist.find(53))
+print("Finding item: ", itemlist.find(32))
+
+#itemlist.deleteAt(2)
+#print("Item count: ", itemlist.get_count())
+#print("Finding item: ", itemlist.find(12))
+#itemlist.dump_list()
